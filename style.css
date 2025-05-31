@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* Section titles */
+.section-title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Service cards with hover effect */
+.services .card {
+  transition: all 0.3s ease-in-out;
+}
+
+.services .card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+/* Testimonials styling */
+#testimonials .shadow-sm {
+  border-left: 4px solid #007bff;
+}
+
+/* Form styling */
+form input, form textarea {
+  border-radius: 6px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 50px;
+}
